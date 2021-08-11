@@ -14,7 +14,7 @@ const Hero = () => (
       <SectionText>
       I am a Software Engineer based in New York, but willing to relocate to South Florida for the right job opportunity. With experience both as a supervisor and a software developer, I have the capacity to address and solve difficult problems with innovation and efficiency.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button onClick={() => window.location = '#about'}>Learn More</Button>
     </LeftSection>
   </Section>
 );

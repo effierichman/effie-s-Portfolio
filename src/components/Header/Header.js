@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React, {useState} from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+// import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
@@ -14,7 +14,7 @@ const Header = () =>  {
     <Div1>
       <Link href='/'>
         <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px' }}>
-          <DiCssdeck size='3rem' /> <Span>Effie's Portfolio</Span>
+           <img style={{borderRadius: '50%', width: '25px', height: '25px'}} src='./images/effie.jpeg' alt='Effie Richman Avatar' /> <Span style={{paddingLeft: '.75rem'}}>Effie's Portfolio</Span>
         </a>
       </Link>
     </Div1>

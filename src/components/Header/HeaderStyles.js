@@ -11,7 +11,7 @@ export const Container = styled.div`
   position: sticky;
   top: 0;
   background-color: #0F1624;
-  opacity: 1;
+  opacity:1;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
