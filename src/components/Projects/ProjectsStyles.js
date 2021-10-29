@@ -96,6 +96,9 @@ export const ExternalLinks = styled.a`
     background: #801414;
   }
 `;
+export const ExternalLinksHidden = styled.a`
+  display: hidden;
+`;
 
 export const TagList = styled.ul`
   display: flex;

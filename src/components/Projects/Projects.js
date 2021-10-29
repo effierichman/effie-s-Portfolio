@@ -12,6 +12,7 @@ import {
   TitleContent,
   UtilityList,
   Img,
+  ExternalLinksHidden,
 } from "./ProjectsStyles";
 import {
   Section,
@@ -19,9 +20,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
-// const displaySource = () {
-//   if(source !=== )
-// }
+
 const Projects = () => (
   <Section id="projects">
     <SectionDivider />
@@ -46,9 +45,11 @@ const Projects = () => (
             </div>
             <UtilityList>
               <ExternalLinks href={visit}>Link to Site</ExternalLinks>
-              {source !== "" ? (
+              {/* {source === "" ? (
+                <ExternalLinksHidden></ExternalLinksHidden>
+              ) : (
                 <ExternalLinks href={source}>Source Code</ExternalLinks>
-              ) : null}
+              )} */}
             </UtilityList>
           </BlogCard>
         )
