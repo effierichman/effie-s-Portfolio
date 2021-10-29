@@ -1,16 +1,27 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I've worked with a range a technologies in the web development world. From
+      design to deployment
     </SectionText>
     <List>
       <ListItem>
@@ -33,7 +44,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Express, Node, MongoDB, Ruby, Firebase, and other databases
+            Express, Node, MongoDB, Ruby, Firebase, JAVA, and other databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
