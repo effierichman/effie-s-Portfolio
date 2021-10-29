@@ -6,7 +6,6 @@ export const projects = [
     image: "/images/strategyHR.png",
     imageAlt: "StrategyHR Site Photo",
     tags: ["NextJs", "TailwindCSS", "React", "Vercel", "Context API", "Ref"],
-    source: "https://github.com/EffortlessDevelopment/strategy-hr",
     visit: "https://strategyhrsolutions.com/index",
     id: 0,
   },
@@ -17,9 +16,20 @@ export const projects = [
     image: "/images/ipixsCovid-19Tracker.jpeg",
     imageAlt: "ipixTracker Site Photo",
     tags: ["NextJs", "TailwindCSS", "React", "Vercel", "Axios", "ReactChartJS"],
-    source: "https://github.com/EffortlessDevelopment/ipix-tracker",
     visit: "https://ipixcovid19tracker.com/",
     id: 1,
+  },
+  {
+    title: "Picture Bank",
+    description:
+      "This project lets a user choose and upload an image to save a memory with an option to click on any image and a module will be displayed. The images are stored in firebase storage and the database is firestore. Vercel was used to deploy this Next.js web Apllication",
+    image: "/images/Image-Bank.png",
+    imageAlt: "Image Bank Site Photo",
+    tags: ["Next.js", "Styled Components", "Firebase", "Firestore", "vercel"],
+    source:
+      "https://github.com/effierichman/image-bank/tree/c484a91fef3022a8ce14c571f3a8591a436174ea",
+    visit: "https://image-bank-bwd5epita-effierichman.vercel.app/",
+    id: 3,
   },
   {
     title: "Megabus",
@@ -30,19 +40,19 @@ export const projects = [
     tags: ["React", "CSS", "Axios"],
     source: "https://github.com/effierichman/Megabus",
     visit: "https://megabus-mobile.herokuapp.com/",
-    id: 3,
+    id: 5,
   },
-  {
-    title: "Train Tracker",
-    description:
-      "This was my second project at General Assembly. I used React JS to creat the App. The app will let you view all MTA train stations in NYC and will let you click on each stop to get the station name and the lines running at each station",
-    image: "/images/trainTracker.png",
-    imageAlt: "TrainTracker Site Photo",
-    tags: ["React", "CSS", "Axios"],
-    source: "https://github.com/effierichman/Train-Tracker",
-    visit: "https://train-tracker.surge.sh/",
-    id: 4,
-  },
+  // {
+  //   title: "Train Tracker",
+  //   description:
+  //     "This was my second project at General Assembly. I used React JS to creat the App. The app will let you view all MTA train stations in NYC and will let you click on each stop to get the station name and the lines running at each station",
+  //   image: "/images/trainTracker.png",
+  //   imageAlt: "TrainTracker Site Photo",
+  //   tags: ["React", "CSS", "Axios"],
+  //   source: "https://github.com/effierichman/Train-Tracker",
+  //   visit: "https://train-tracker.surge.sh/",
+  //   id: 4,
+  // },
   // {
   //   title: "Effie's Blackjack",
   //   description:
